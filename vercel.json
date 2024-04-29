@@ -2,12 +2,6 @@
     "version": 2,
     "public": false,
     "devCommand": "uvicorn main:app",
-    "builds": [
-        {
-            "src": "main.py",
-            "use": "@vercel/python"
-        }
-    ],
     "routes": [
         {
             "src": "/(.*)",
