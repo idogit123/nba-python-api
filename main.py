@@ -48,7 +48,8 @@ with open('past_games_cache.txt', 'w') as file:
 app = FastAPI()
 
 origins = [
-    'http://localhost:5173'
+    'http://localhost:5173',
+    'https://react-nba-game.vercel.app'
 ]
 
 
